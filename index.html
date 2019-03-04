@@ -7,11 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Bootstrap 4 One Page Website Tutorial</title>
+    <title>Save the Date</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
@@ -32,6 +31,7 @@
     <!-- Top menu -->
     <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
         <div class="container">
+            <!-- Need to change this navbar brand shit to something else -->
             <a class="navbar-brand" href="index.html">Arturo and Perla's Wedding</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,37 +40,66 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#top-content">Top</a>
+                        <a class="nav-link scroll-link" href="#top-content">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#about-us">About</a>
+                        <a class="nav-link scroll-link" href="#wedding-container">The Wedding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#our-story">Our Story</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Top content -->
-<div class="top-content">
+    <div class="top-content">
         <div class="container">
-     
             <div class="row">
                 <div class="col-md-8 offset-md-2 text">
                     <h1 class="wow fadeInLeftBig">Arturo and Perla</h1>
                     <div class="description wow fadeInLeftBig">
-                        <p>
-                            I guess the word is out!
-                        </p>
+                        <h4>November 23, 2019 • Houston, TX</h4>
+                        <h4 id="daysLeft"></h4>
                     </div>
                     <div class="top-big-link wow fadeInUp">
                         <a class="btn btn-primary btn-link-2 scroll-link" href="#about-us">Learn more about us</a>
                     </div>
                 </div>
             </div>
-     
-        </div>            
+
+        </div>
     </div>
+
+    <!-- Wedding Details -->
+
+    <div class="wedding-container section-container section-container-gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
+                        <div class="about-us-box-text">
+                            <h3>The Wedding</h3>
+                            <p class="medium-paragraph">
+                                    Saturday, November 23, 2019
+                            </p>
+                            <p>
+                                    Ceremony & Reception
+                            </p>
+                            <p>
+                                    Ashton Gardens </br>
+                                    21919 Inverness Forest Boulevard, Houston, TX 77073, USA
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 about-us-box wow fadeInRight">
+                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJXWWYZ7zKQIYR1CH3TEvwOJ4&key=AIzaSyAcbc0VA2C_B7qnJ_FtMPjwqAQ_yBOoIKU" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <!-- About us -->
-<div class="about-us-container section-container section-container-gray-bg">
+    <div class="about-us-container section-container section-container-gray-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
@@ -111,6 +140,7 @@
     <script src="assets/js/retina-1.1.0.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
